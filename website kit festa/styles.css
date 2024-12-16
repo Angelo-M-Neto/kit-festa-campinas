@@ -1,0 +1,144 @@
+
+body, h1, h2, p, ul, table, form, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #744335;
+    color: #ffffff;
+}
+
+
+header {
+    background: #f3abae;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #744335;
+    border: 1px solid #744335;
+    border-radius: 5px;
+}
+
+.profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.display-img {
+    width: 475px;
+    height: 475px;
+    border-radius: 0%;
+    margin-top: 0px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #744335;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #deccbd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0073e6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005bb5;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.journey {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 5px;
+    border-style: groove;
+}
+
+#block_content{
+    display: flex;
+}
+
+.luzia-img {
+    width: 500px;
+    height: 510px;
+    padding-left: 10px;
+}
